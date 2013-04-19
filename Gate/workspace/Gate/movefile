@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for i in `ls | grep txt.out.xml`
+do
+	cp $i ../entire/$i
+done
