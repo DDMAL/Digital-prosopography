@@ -1,0 +1,42 @@
+Phase: First
+Input: Token Date Person
+Options: control=appelt
+
+
+Macro: ATTRIBUTE
+:Attri
+{
+    AnnotationSet attribute = (AnnotationSet) bindings.get("Attri");
+    Annotation person = bindings.get("person").iterator().next();
+    Annotation birth = bindings.get("birth").iterator().next();
+    Annotation death = bindings.get("death").iterator().next();
+
+    FeatureMap features = Factory.newFeatureMap();
+    try {    
+        String name = doc.getContent().getContent(person.getStartNode().getOffset(), person.getEndNode().getOffset()).toString();
+        String birthDate = doc.getContent().getContent(birth.getStartNode().getOffset(), birth.getEndNode().getOffset()).toString();
+        String deathDate = doc.getContent().getContent(death.getStartNode().getOffset(), death.getEndNode().getOffset()).toString();
+        features.put("name", name);
+        features.put("birth-date", birthDate);
+        features.put("death-date", deathDate);
+    } catch(InvalidOffsetException e) {
+        throw new GateRuntimeException(e);
+    }
+
+
+    outputAS.add(attribute.firstNode(), attribute.lastNode(), "Attribute", features);
+}
+
+Rule: BirthAndDeath
+(
+    ({Person}):person
+    ({Token})[0,5]
+    (
+        ({Token.string=="b"} | {Token.string=="fl"} | {Token.string=="c"})
+        ({Token.string=="."})
+    )?
+    ({Date}):birth
+    ({Token})[0,5]
+    ({Date}):death
+):Attri
+--> ATTRIBUTE
