@@ -1,0 +1,60 @@
+
+Phase: First
+Input: Token JobTitle
+Options: control=appelt
+
+
+Macro: NOUN
+:Noun
+{
+    AnnotationSet Noun = (AnnotationSet) bindings.get("Noun");
+
+    FeatureMap features = Factory.newFeatureMap();
+
+    features.put("predict", "birth");
+
+    outputAS.add(Noun.firstNode(), Noun.lastNode(), "Noun", features);
+}
+
+Macro:PHRASE
+(
+    ({Token.category=="IN"})
+    ({Token.category=="DT"})?
+    ({Token.category=~"NN[PS]"} | {Token.category=="NN"} | {Token.category=="NNPS"} | {JobTitle})
+)
+Macro:SINGLENOUN
+(
+    ({Token.category=~"NN[PS]"} | {Token.category=="NN"} | {Token.category=="NNPS"} | {JobTitle})
+)
+
+
+Rule: Noun1
+(
+    //({Token.category=~"NN[PS]"} | {Token.category=="NN"} | {Token.category=="NNPS"} | {JobTitle})
+    (SINGLENOUN)
+    (PHRASE)?
+):Noun
+--> NOUN
+
+Rule: Noun2
+(
+	({Token.category=~"JJ(?)"})
+    (SINGLENOUN)
+    (PHRASE)?
+):Noun
+--> NOUN
+
+Rule: Noun3
+(
+	({Token.category=="RB"} | ({Token.category=~"JJ(?)"}))
+	({Token.category=~"JJ(?)"})
+    (SINGLENOUN)
+    (PHRASE)?
+):Noun
+--> NOUN
+
+Rule: Noun4
+(
+    (SINGLENOUN)
+):Noun
+--> NOUN

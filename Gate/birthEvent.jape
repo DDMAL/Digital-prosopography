@@ -1,0 +1,43 @@
+Phase: First
+Input: Token Birth Death Person Date
+Options: control=appelt
+
+
+Macro: EVENT
+:Event
+{
+    String pred = "Born";
+    AnnotationSet event = (AnnotationSet) bindings.get("Event");
+    Annotation date = bindings.get("date").iterator().next();
+    Annotation personAnn = bindings.get("type").iterator().next();  
+    
+    FeatureMap features = Factory.newFeatureMap();
+    try{
+
+    String birthDate = doc.getContent().getContent(date.getStartNode().getOffset(), date.getEndNode().getOffset()).toString();
+
+    features.put("Pred", personAnn.getFeatures().get("predict"));  
+    features.put("Pred-tyoe", "time");
+    features.put("RE", birthDate);
+    } catch (InvalidOffsetException e){
+        throw new GateRuntimeException(e);
+    }
+
+    outputAS.add(event.firstNode(), event.lastNode(), "Event-Birth", features);
+}
+
+Rule: BirthEvent
+(
+    ({Birth}):type
+    ({Token})[0,5]
+    ({Date}):date
+):Event
+--> EVENT
+
+Rule: DeathEvent
+(
+    ({Death}):type
+    ({Token})[0,5]
+    ({Date}):date
+):Event
+--> EVENT

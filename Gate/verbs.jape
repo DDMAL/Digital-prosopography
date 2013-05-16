@@ -1,0 +1,36 @@
+Phase: First
+Input: Token
+Options: control=appelt
+
+
+Macro: VERB
+:Verb
+{
+    AnnotationSet Verb = (AnnotationSet) bindings.get("Verb");
+
+    FeatureMap features = Factory.newFeatureMap();
+
+    outputAS.add(Verb.firstNode(), Verb.lastNode(), "Verb", features);
+}
+
+
+Rule: Verb2
+(    
+	({Token.string == "was"} | {Token.string == "were"} | {Token.string == "been"} | {Token.string=="has"} | {Token.string=="s"} | {Token.string=="is"} | {Token.string=="are"} | {Token.string=="were"})
+    ({Token.category=="VBN"} | {Token.category=="VBD"} | {Token.category=="VBZ"} | 
+    (
+    	({Token.category=="IN"})
+    	({Token})[0,2]
+    	({Token.category=="IN"}))
+    )
+):Verb
+--> VERB
+
+Rule: Verb1
+(
+    {Token.category=="VBD"}|
+    {Token.category=="VBN"}|
+    {Token.category=="VBZ"}|
+    {Token.category=="VB"}
+):Verb
+--> VERB
