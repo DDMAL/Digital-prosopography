@@ -9,14 +9,14 @@ Macro: EVENT
     String pred = "Born";
     AnnotationSet event = (AnnotationSet) bindings.get("Event");
     Annotation date = bindings.get("date").iterator().next();
-    Annotation personAnn = bindings.get("type").iterator().next();  
+    Annotation type = bindings.get("type").iterator().next();  
     
     FeatureMap features = Factory.newFeatureMap();
     try{
 
     String birthDate = doc.getContent().getContent(date.getStartNode().getOffset(), date.getEndNode().getOffset()).toString();
 
-    features.put("Pred", personAnn.getFeatures().get("predict"));  
+    features.put("Pred", type.getFeatures().get("predict"));  
     features.put("Pred-tyoe", "time");
     features.put("RE", birthDate);
     } catch (InvalidOffsetException e){
