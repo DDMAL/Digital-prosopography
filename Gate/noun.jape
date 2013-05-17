@@ -11,8 +11,6 @@ Macro: NOUN
 
     FeatureMap features = Factory.newFeatureMap();
 
-    features.put("predict", "birth");
-
     outputAS.add(Noun.firstNode(), Noun.lastNode(), "Noun", features);
 }
 
