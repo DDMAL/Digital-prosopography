@@ -1,5 +1,5 @@
 Phase: First
-Input: Token Event-Birth Birth Death Date Location
+Input: Token Event_Birth Birth Death Date Location
 Options: control=appelt
 
 
@@ -23,7 +23,7 @@ Macro: EVENT
         throw new GateRuntimeException(e);
     }
 
-    outputAS.add(event.firstNode(), event.lastNode(), "B_D_Location", features);
+    outputAS.add(event.firstNode(), event.lastNode(), "Event_Location", features);
 }
 
 Rule: BLocation
@@ -51,13 +51,13 @@ Rule: BLocation_2
 (
     ({Location}):Loc
     ({Token})[0,5]
-    ({Event-Birth}):Type
+    ({Event_Birth}):Type
 ):Event
 --> EVENT
 
 Rule: BLocation_3
 (
-    ({Event-Birth}):Type
+    ({Event_Birth}):Type
     ({Token})[0,5]
     ({Location}):Loc
 ):Event

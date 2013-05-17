@@ -23,7 +23,7 @@ Macro: EVENT
         throw new GateRuntimeException(e);
     }
 
-    outputAS.add(event.firstNode(), event.lastNode(), "Event-Birth", features);
+    outputAS.add(event.firstNode(), event.lastNode(), "Event_Birth", features);
 }
 
 Rule: BirthEvent
