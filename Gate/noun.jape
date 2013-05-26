@@ -14,45 +14,39 @@ Macro: NOUN
     outputAS.add(Noun.firstNode(), Noun.lastNode(), "Noun", features);
 }
 
-Macro:PHRASE
-(
-    ({Token.category=="IN"})
-    ({Token.category=="DT"})?
-    ({Token.category=~"NN[PS]"} | {Token.category=="NN"} | {Token.category=="NNPS"} | {JobTitle})
-)
 Macro:SINGLENOUN
 (
     ({Token.category=~"NN[PS]"} | {Token.category=="NN"} | {Token.category=="NNPS"} | {JobTitle})
 )
-
-
-Rule: Noun1
+Macro:NUM-ADV-ADJ
 (
-    //({Token.category=~"NN[PS]"} | {Token.category=="NN"} | {Token.category=="NNPS"} | {JobTitle})
+    ({Token.category=="CD"})?
+    ({Token.category=="RB"} | ({Token.category=~"JJ(?)"}))?
+    ({Token.category=~"JJ(?)"})
+)
+Macro:COMPLEX-NOUN
+(
+    (NUM-ADV-ADJ)
     (SINGLENOUN)
-    (PHRASE)?
+)
+Macro:PHRASE
+(
+    ({Token.category=="IN"})
+    ({Token.category=="DT"})?
+    ((COMPLEX-NOUN) | (SINGLENOUN))
+)
+
+
+Rule: Noun_1
+(
+    (COMPLEX-NOUN)
+    (PHRASE)[0, 2]
 ):Noun
 --> NOUN
 
-Rule: Noun2
-(
-	({Token.category=~"JJ(?)"})
-    (SINGLENOUN)
-    (PHRASE)?
-):Noun
---> NOUN
-
-Rule: Noun3
-(
-	({Token.category=="RB"} | ({Token.category=~"JJ(?)"}))
-	({Token.category=~"JJ(?)"})
-    (SINGLENOUN)
-    (PHRASE)?
-):Noun
---> NOUN
-
-Rule: Noun4
+Rule: Noun_2
 (
     (SINGLENOUN)
+    (PHRASE)[0, 2]
 ):Noun
 --> NOUN
