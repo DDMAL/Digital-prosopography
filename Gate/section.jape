@@ -1,0 +1,22 @@
+
+Phase: First
+Input: Token Object Seperator
+Options: control=appelt
+
+
+Macro: SECTION
+:Section
+{
+    AnnotationSet Section = (AnnotationSet) bindings.get("Section");
+
+    FeatureMap features = Factory.newFeatureMap();
+
+    outputAS.add(Section.firstNode(), Section.lastNode(), "Section", features);
+}
+
+Rule: Section
+(
+   ({Token.string!=";", !Seperator} | {Object})[4, 15]
+):Section
+--> SECTION
+

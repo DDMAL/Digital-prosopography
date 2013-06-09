@@ -1,0 +1,22 @@
+
+Phase: First
+Input:  Section Object Verb Seperator
+Options: control=appelt
+
+
+Macro: EVENT
+:Event
+{
+    AnnotationSet Event = (AnnotationSet) bindings.get("Event");
+
+    FeatureMap features = Factory.newFeatureMap();
+
+    outputAS.add(Event.firstNode(), Event.lastNode(), "event", features);
+}
+
+Rule: Event
+(
+    {Section contains Object, Section notContains Seperator} | {Section contains Verb}
+):Event
+--> EVENT
+

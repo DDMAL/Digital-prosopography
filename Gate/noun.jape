@@ -1,6 +1,6 @@
 
 Phase: First
-Input: Token JobTitle
+Input: Token Person JobTitle
 Options: control=appelt
 
 
@@ -16,7 +16,7 @@ Macro: NOUN
 
 Macro:SINGLENOUN
 (
-    ({Token.category=~"NN[PS]"} | {Token.category=="NN"} | {Token.category=="NNPS"} | {JobTitle})
+    ({Token.category=~"NN[PS]"} | {Token.category=="NN"} | {Token.category=="NNPS"})
 )
 Macro:NUM-ADV-ADJ
 (
@@ -48,5 +48,10 @@ Rule: Noun_2
 (
     (SINGLENOUN)
     (PHRASE)[0, 2]
+):Noun
+--> NOUN
+Rule: Noun_3
+(
+    (PHRASE)[1, 2]
 ):Noun
 --> NOUN

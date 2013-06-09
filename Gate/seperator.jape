@@ -1,0 +1,34 @@
+
+Phase: First
+Input: Token Split
+Options: control=appelt
+
+
+Macro: SEP
+:Sep
+{
+    AnnotationSet Sep = (AnnotationSet) bindings.get("Sep");
+
+    FeatureMap features = Factory.newFeatureMap();
+
+    outputAS.add(Sep.firstNode(), Sep.lastNode(), "Seperator", features);
+}
+
+Rule: Sep_1
+(
+   ({Split})
+):Sep
+--> SEP
+
+Rule: Sep_2
+(
+   ({Token.string==";"})
+):Sep
+--> SEP
+
+Rule: Sep_3
+(
+   ({Token.string==","})
+   ({Token.string=="and"})
+):Sep
+--> SEP

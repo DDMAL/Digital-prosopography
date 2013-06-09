@@ -1,0 +1,81 @@
+Phase: First
+Input: Token Verb Birth Death Location Split Noun Date
+Options: control=appelt
+
+
+Macro: EVENT
+:Event
+{
+    AnnotationSet event = (AnnotationSet) bindings.get("Event");
+    Annotation loc = bindings.get("loc").iterator().next();
+    Annotation verb = bindings.get("verb").iterator().next();  
+    Annotation noun = bindings.get("noun").iterator().next();  
+    Annotation date = bindings.get("date").iterator().next();  
+    
+    FeatureMap features = Factory.newFeatureMap();
+
+    try{
+
+        String loc_string = doc.getContent().getContent(loc.getStartNode().getOffset(), loc.getEndNode().getOffset()).toString();
+        String noun_string = doc.getContent().getContent(noun.getStartNode().getOffset(), noun.getEndNode().getOffset()).toString();
+        String verb_string = doc.getContent().getContent(verb.getStartNode().getOffset(), verb.getEndNode().getOffset()).toString();
+        String date_string = doc.getContent().getContent(date.getStartNode().getOffset(), date.getEndNode().getOffset()).toString();
+        
+        if (noun.getFeatures().get("type") == "Location")
+        {
+            features.put("location", noun_string);
+        }
+        else
+        {
+            if(loc_string.length()!=0)
+                features.put("location", loc_string);
+            if(noun_string.length()!=0)
+                features.put("object", noun_string);
+        }
+
+        features.put("verb", verb_string);  
+        if(date_string.length()!=0)
+            features.put("date", date_string);
+
+    } catch (InvalidOffsetException e){
+        throw new GateRuntimeException(e);
+    }
+
+    outputAS.add(event.firstNode(), event.lastNode(), "Event", features);
+}
+
+Rule: Event
+(
+    ({Verb}):verb
+    ({Noun, !Split})[0,5]:noun
+    ({Location})[0,1]:loc
+    (
+        ({Token.category=="IN"})?
+        ({Date})
+    )[0,1]:date
+):Event
+--> EVENT
+
+Rule: ELoc
+(
+    ({Location}):loc
+    ({Noun, !Split})[0,5]:noun
+    ({Verb}):verb
+    (
+        ({Token.category=="IN"})?
+        ({Date})
+    )[0,1]:date
+):Event
+--> EVENT
+
+Rule: EDate
+(
+    (
+        ({Token.category=="IN"})?
+        ({Date})
+    ):date
+    ({Verb}):verb
+    ({Noun, !Split})[0,5]:noun
+    ({Location})[0,1]:loc
+):Event
+--> EVENT

@@ -1,42 +1,86 @@
 Phase: First
-Input: Token Date Person
+Input: Token Verb Birth Death Location Split Noun Date
 Options: control=appelt
 
 
-Macro: ATTRIBUTE
-:Attri
+/*Macro: EVENT
+:Event
 {
-    AnnotationSet attribute = (AnnotationSet) bindings.get("Attri");
-    Annotation person = bindings.get("person").iterator().next();
-    Annotation birth = bindings.get("birth").iterator().next();
-    Annotation death = bindings.get("death").iterator().next();
-
+    AnnotationSet event = (AnnotationSet) bindings.get("Event");
+    Annotation verb = bindings.get("verb").iterator().next();  
+    
     FeatureMap features = Factory.newFeatureMap();
-    try {    
-        String name = doc.getContent().getContent(person.getStartNode().getOffset(), person.getEndNode().getOffset()).toString();
-        String birthDate = doc.getContent().getContent(birth.getStartNode().getOffset(), birth.getEndNode().getOffset()).toString();
-        String deathDate = doc.getContent().getContent(death.getStartNode().getOffset(), death.getEndNode().getOffset()).toString();
-        features.put("name", name);
-        features.put("birth-date", birthDate);
-        features.put("death-date", deathDate);
-    } catch(InvalidOffsetException e) {
-        throw new GateRuntimeException(e);
-    }
 
+    try
+    {
+    	Annotation loc = bindings.get("loc").iterator().next();
+    
+        String loc_string = doc.getContent().getContent(loc.getStartNode().getOffset(), loc.getEndNode().getOffset()).toString();
+        
+        features.put("location", loc_string);
 
-    outputAS.add(attribute.firstNode(), attribute.lastNode(), "Attribute", features);
+    } catch (NullPointerException |  InvalidOffsetException e){}
+
+    try 
+    {
+    	Annotation noun = bindings.get("noun").iterator().next();  
+
+    	String noun_string = doc.getContent().getContent(noun.getStartNode().getOffset(), noun.getEndNode().getOffset()).toString();
+        		
+        features.put("object", noun_string);
+
+    } catch (NullPointerException |  InvalidOffsetException e){}
+
+    try
+    {
+    	Annotation date = bindings.get("date").iterator().next();  
+        String date_string = doc.getContent().getContent(date.getStartNode().getOffset(), date.getEndNode().getOffset()).toString();
+        
+     	features.put("date", date_string);
+
+    } catch (NullPointerException |  InvalidOffsetException e){}
+
+    try
+    {
+        String verb_string = doc.getContent().getContent(verb.getStartNode().getOffset(), verb.getEndNode().getOffset()).toString();
+    	features.put("verb", verb_string);  
+    } catch (InvalidOffsetException e){}
+
+    outputAS.add(event.firstNode(), event.lastNode(), "Event", features);
 }
 
-Rule: BirthAndDeath
+Rule: Event
 (
-    ({Person}):person
-    ({Token})[0,5]
+    ({Verb}):verb
+    ({Noun, !Split} | {Token.category=="DT"} | {Token.category=="IN"})[0,8]:noun
+    ({Location})[0,1]:loc
     (
-        ({Token.string=="b"} | {Token.string=="fl"} | {Token.string=="c"})
-        ({Token.string=="."})
-    )?
-    ({Date}):birth
-    ({Token})[0,5]
-    ({Date}):death
-):Attri
---> ATTRIBUTE
+        ({Token.category=="IN"})?
+        ({Date})
+    )[0,1]:date
+):Event
+--> EVENT
+
+Rule: ELoc
+(
+    ({Location}):loc
+    ({Noun, !Split} | {Token.category=="DT"} | {Token.category=="IN"})[0,5]:noun
+    ({Verb}):verb
+    (
+        ({Token.category=="IN"})?
+        ({Date})
+    )[0,1]:date
+):Event
+--> EVENT
+
+Rule: EDate
+(
+    (
+        ({Token.category=="IN"})?
+        ({Date})
+    ):date
+    ({Verb}):verb
+    ({Noun, !Split} | {Token.category=="DT"} | {Token.category=="IN"})[0,5]:noun
+    ({Location})[0,1]:loc
+):Event
+--> EVENT*/

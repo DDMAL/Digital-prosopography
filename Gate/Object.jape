@@ -1,0 +1,28 @@
+
+Phase: First
+Input: Token Noun Split Location Date JobTitle Verb
+Options: control=appelt
+
+
+Macro: OBJ
+:Obj
+{
+    AnnotationSet Obj = (AnnotationSet) bindings.get("Obj");
+
+    FeatureMap features = Factory.newFeatureMap();
+
+    outputAS.add(Obj.firstNode(), Obj.lastNode(), "Object", features);
+}
+
+Rule: Object
+(
+    (
+        ({Noun, !Split})[1,3]
+        (
+            ({Token, Token.kind!="punctuation", !Location, !Date, !JobTitle, !Verb})[1, 2]
+            ({Noun, !Split})
+        )[0, 2]
+    )[1,5]
+):Obj
+--> OBJ
+

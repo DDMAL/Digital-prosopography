@@ -1,0 +1,30 @@
+Phase: First
+Input: Token Person Split
+Options: control=appelt
+
+
+Macro: ATTRI
+:Attri
+{
+    AnnotationSet attribute = (AnnotationSet) bindings.get("Attribute");
+
+    FeatureMap features = Factory.newFeatureMap();
+
+    outputAS.add(Verb.firstNode(), Verb.lastNode(), "Verb", features);
+}
+
+Macro:SEGMENT
+(
+    ({Token.string == ","})
+    ({Token}, {!Split})[0,8]
+    ({Token.string == ","})
+)
+Rule: Attri
+(    
+	({SEGMENT contains {({Noun}):noun} | {SEGMENT contains Verb }
+
+
+
+        )
+):Attri
+--> ATTRI
