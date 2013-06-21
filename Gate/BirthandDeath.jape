@@ -1,0 +1,30 @@
+Phase: First
+Input: Token Birth Death Date Location
+Options: control=appelt
+
+
+Macro: EVENT
+:Event
+{
+    AnnotationSet event = (AnnotationSet) bindings.get("Event");
+    
+    FeatureMap features = Factory.newFeatureMap();
+   
+    outputAS.add(event.firstNode(), event.lastNode(), "Event", features);
+}
+
+Rule: BLocation
+(
+    ({Birth}):tyoe
+    ({Token})[0, 6]
+    ({Date}):date
+):Event
+--> EVENT
+
+Rule: DeathEvent
+(
+    ({Death}):type
+    ({Token})[0, 6]
+    ({Date}):date
+):Event
+--> EVENT

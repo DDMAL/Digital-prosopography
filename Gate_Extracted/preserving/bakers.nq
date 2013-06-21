@@ -1,0 +1,48 @@
+ 
+<http://humanhistoryproject.ca/event_1> <http://humanhistoryproject.ca/hasObject> <http://humanhistoryproject.ca/Italian > <http://humanhistoryproject.ca/Bakers> .
+ 
+ 
+<http://humanhistoryproject.ca/event_2> <http://humanhistoryproject.ca/hasAction> <http://humanhistoryproject.ca/born> <http://humanhistoryproject.ca/Bakers> .
+ 
+<http://humanhistoryproject.ca/event_2> <http://humanhistoryproject.ca/hasLocation> <http://humanhistoryproject.ca/Florence> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/event_2> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/1480> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/event_3> <http://humanhistoryproject.ca/hasAction> <http://humanhistoryproject.ca/died> <http://humanhistoryproject.ca/Bakers> .
+ 
+<http://humanhistoryproject.ca/event_3> <http://humanhistoryproject.ca/hasLocation> <http://humanhistoryproject.ca/Venice> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/event_3> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/1545> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/event_4> <http://humanhistoryproject.ca/hasAction> <http://humanhistoryproject.ca/was> <http://humanhistoryproject.ca/Bakers> .
+ 
+<http://humanhistoryproject.ca/event_4> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/1521> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/event_5> <http://humanhistoryproject.ca/hasAction> <http://humanhistoryproject.ca/was> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/event_5> <http://humanhistoryproject.ca/hasObject> <http://humanhistoryproject.ca/
+		> <http://humanhistoryproject.ca/Bakers> .
+ 
+<http://humanhistoryproject.ca/event_5> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/1523> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/event_6> <http://humanhistoryproject.ca/hasAction> <http://humanhistoryproject.ca/was> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/event_6> <http://humanhistoryproject.ca/hasObject> <http://humanhistoryproject.ca/maestro di casa> <http://humanhistoryproject.ca/Bakers> .
+ 
+<http://humanhistoryproject.ca/event_6> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/1525> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/event_7> <http://humanhistoryproject.ca/hasAction> <http://humanhistoryproject.ca/entered> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/event_7> <http://humanhistoryproject.ca/hasObject> <http://humanhistoryproject.ca/Order of > <http://humanhistoryproject.ca/Bakers> .
+ 
+<http://humanhistoryproject.ca/event_7> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/1536> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/event_8> <http://humanhistoryproject.ca/hasAction> <http://humanhistoryproject.ca/published> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/event_8> <http://humanhistoryproject.ca/hasObject> <http://humanhistoryproject.ca/Libri tres de institutione harmonica> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/event_8> <http://humanhistoryproject.ca/hasLocation> <http://humanhistoryproject.ca/Bologna> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/event_8> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/1516> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/event_9> <http://humanhistoryproject.ca/hasAction> <http://humanhistoryproject.ca/published> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/event_9> <http://humanhistoryproject.ca/hasObject> <http://humanhistoryproject.ca/II Toscanello in musica> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/event_9> <http://humanhistoryproject.ca/hasLocation> <http://humanhistoryproject.ca/Venice> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/event_9> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/1523> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/event_10> <http://humanhistoryproject.ca/hasAction> <http://humanhistoryproject.ca/reprints> <http://humanhistoryproject.ca/Bakers> .
+ 
+ 
+<http://humanhistoryproject.ca/event_10> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/1525-62> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/event_11> <http://humanhistoryproject.ca/hasAction> <http://humanhistoryproject.ca/published> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/event_11> <http://humanhistoryproject.ca/hasObject> <http://humanhistoryproject.ca/Trattato della natura et cognitione di tutti gli tuoni di canto figurato> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/event_11> <http://humanhistoryproject.ca/hasLocation> <http://humanhistoryproject.ca/Venice> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/event_11> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/1525> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/event_12> <http://humanhistoryproject.ca/hasAction> <http://humanhistoryproject.ca/published> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/event_12> <http://humanhistoryproject.ca/hasObject> <http://humanhistoryproject.ca/Lucidario in musica di alcune opinione antiche e moderne> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/event_12> <http://humanhistoryproject.ca/hasLocation> <http://humanhistoryproject.ca/Venice> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/event_12> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/1545> <http://humanhistoryproject.ca/Bakers> .

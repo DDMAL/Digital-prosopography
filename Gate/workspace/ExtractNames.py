@@ -2,7 +2,7 @@ import os
 import re
 
 #fileOut = raw_input('Type in the Name of the output file: ')
-fileList = os.listdir("entire")
+"""fileList = os.listdir("entire")
 
 for inFile in fileList:
 	fileOut = "entireXML/"+inFile
@@ -20,25 +20,23 @@ for inFile in fileList:
 	rFile.close()
 	oFile.close()
 
-#wr = csv.writer(resultFile, dialect='excel')
+#wr = csv.writer(resultFile, dialect='excel')"""
 
 #fileIn = raw_input('Type in the Name of the input file: ')
-#fileIn = "Names1.xml"
+fileIn = "Aaron_suggested.xml"
 
 
-#tree = ET.parse(fileIn)
-#root = tree.getroot()
+tree = ET.parse(fileIn)
+root = tree.getroot()
 
-#for Sentence in root.iter('Person'):
-#    S = Sentence.text
- #   if S != None:
-       
-#        wr.writerow(S)
- 
-#        print S
-#    else:
-#        print "None"
-
+for event in root.iter('event'):
+    try :
+    	Verb = event.find('Verb').text
+    	Object = event.find('Object').text
+    	Location = event.find('Object').text
+    	Date = event.find('Date').text
+    	print Verb + Object + Location + Date
+    except 
 
 
 #resultFile.close()

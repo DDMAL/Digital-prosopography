@@ -1,3 +1,5 @@
+<data>
+	
 <event>
 	<Person>Aaron</Person>
 	<Person>Pietro</Person>
@@ -53,8 +55,9 @@
 </event>
 
 <event>
+	<Verb>published</Verb>
 	<Object>II Toscanello in musica</Object>
-	<Location>Venice<</Location>
+	<Location>Venice</Location>
 	<Date>1523</Date>
 </event>
 
@@ -64,32 +67,17 @@
 </event>
 
 <event>
+	<Verb>published</Verb>
 	<Object>Trattato della natura et cognitione di tutti gli tuoni di canto figurato</Object> 
 	<Location>Venice</Location>
 	<Date>1525</Date>
 </event>
 
 <event>
+	<Verb>published</Verb>
 	<Object>Lucidario in musica di alcune opinione antiche e moderne</Object>
 	<Location>Venice</Location>
 	<Date>1545</Date>
 </event>
 
-<event>
-	<Object>Compendiolo di molti dubbi</Object>
-	<Object>segreti</Object>
-	<Object>sentenze intorno al canto fermo et figurato</Object>
-</event> 
-
-<event>
-	<Location>Milan<</Location>posthumous
-</event>
-
-<event>
-	<Object>title page</Object> 
-	<Verb>bears</Verb>
-	<Object>inscription</Object>
-	In <Object>memoria eterna erit 
-			<Person>Aron</Person>
-	</Object>
-</event>.
+</data>
