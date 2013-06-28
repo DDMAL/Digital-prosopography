@@ -7,7 +7,7 @@ fileOut = "Bakers.xml"
 resultFile = open(fileOut,'wb')
 
 
-fileIn = "BakersBornandDeath.xml"
+fileIn = "BakersBornandDeath_new.xml"
 
 tree = ET.parse(fileIn)
 root = tree.getroot()
