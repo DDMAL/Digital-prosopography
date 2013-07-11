@@ -1,0 +1,7 @@
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Abt_Franz_2013-07-11_02:26:00_0> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Abt_Franz> }}
+<http://humanhistoryproject.ca/Abt_Franz_2013-07-11_02:26:00_0> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/birth> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Abt_Franz_2013-07-11_02:26:00_0> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/Dec. 22, 1819> <http://humanhistoryproject.ca/Bakers> .
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Abt_Franz_2013-07-11_02:26:00_1> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Abt_Franz> }}
+<http://humanhistoryproject.ca/Abt_Franz_2013-07-11_02:26:00_1> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/death> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Abt_Franz_2013-07-11_02:26:00_1> <http://humanhistoryproject.ca/hasLocation> <http://humanhistoryproject.ca/Wiesbaden> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Abt_Franz_2013-07-11_02:26:00_1> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/March 31, 1885> <http://humanhistoryproject.ca/Bakers> .

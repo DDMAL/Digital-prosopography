@@ -1,0 +1,7 @@
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Agostini_Paolo_2013-07-11_02:26:03_0> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Agostini_Paolo> }}
+<http://humanhistoryproject.ca/Agostini_Paolo_2013-07-11_02:26:03_0> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/birth> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Agostini_Paolo_2013-07-11_02:26:03_0> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/1593> <http://humanhistoryproject.ca/Bakers> .
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Agostini_Paolo_2013-07-11_02:26:03_1> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Agostini_Paolo> }}
+<http://humanhistoryproject.ca/Agostini_Paolo_2013-07-11_02:26:03_1> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/death> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Agostini_Paolo_2013-07-11_02:26:03_1> <http://humanhistoryproject.ca/hasLocation> <http://humanhistoryproject.ca/Rome> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Agostini_Paolo_2013-07-11_02:26:03_1> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/Oct. 3, 1629> <http://humanhistoryproject.ca/Bakers> .

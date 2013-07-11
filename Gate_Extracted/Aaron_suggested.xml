@@ -1,0 +1,95 @@
+<event>
+	<Person>Aaron</Person>
+	<Person>Pietro</Person>
+	<Object>Italian <JobTitle>theorist</JobTitle></Object>
+</event>
+
+<event>
+	<Verb>born</Verb>
+	<Location>Florence</Location> 
+	<Date>1480</Date>
+</event>
+
+<event>
+	<Verb>died</Verb>
+	<Location>Venice</Location> 
+	<Date>1545</Date>
+</event>
+
+<event>
+	<Verb>was</Verb> 
+	<Object><JobTitle>cantor</JobTitle> at the cathedral of Imola</Object>
+	<Date>1521</Date>
+</event>
+
+<event>
+	<Verb>was</Verb> 
+	<Object>
+		<JobTitle>cantor</JobTitle> at the
+		<Location>Rimini</Location> cathedral
+	</Object>
+	<Date>1523</Date>
+</event>
+
+<event>
+	<Date>1525</Date>
+	<Verb>was</Verb>
+	<Object>maestro di casa</Object>
+	in a 
+	<Object>Venetian house</Object>
+</event>
+
+<event>
+	<Date>1536</Date> 
+	<Verb>entered</Verb>
+	<Object>Order of <Location>Jerusalem</Location></Object>
+</event>
+
+<event>
+	<Verb>published</Verb>
+	<Object>Libri tres de institutione harmonica</Object> 
+	<Location>Bologna</Location>
+	<Date>1516</Date>
+</event>
+
+<event>
+	<Object>II Toscanello in musica</Object>
+	<Location>Venice<</Location>
+	<Date>1523</Date>
+</event>
+
+<event>
+	4 <Verb>reprints</Verb>
+	<Date>1525-62</Date>
+</event>
+
+<event>
+	<Object>Trattato della natura et cognitione di tutti gli tuoni di canto figurato</Object> 
+	<Location>Venice</Location>
+	<Date>1525</Date>
+</event>
+
+<event>
+	<Object>Lucidario in musica di alcune opinione antiche e moderne</Object>
+	<Location>Venice</Location>
+	<Date>1545</Date>
+</event>
+
+<event>
+	<Object>Compendiolo di molti dubbi</Object>
+	<Object>segreti</Object>
+	<Object>sentenze intorno al canto fermo et figurato</Object>
+</event> 
+
+<event>
+	<Location>Milan<</Location>posthumous
+</event>
+
+<event>
+	<Object>title page</Object> 
+	<Verb>bears</Verb>
+	<Object>inscription</Object>
+	In <Object>memoria eterna erit 
+			<Person>Aron</Person>
+	</Object>
+</event>.

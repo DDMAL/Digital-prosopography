@@ -1,0 +1,7 @@
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Aguirre_(ah-ger'-re)_Julian_2013-07-11_02:26:03_0> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Aguirre_(ah-ger'-re)_Julian> }}
+<http://humanhistoryproject.ca/Aguirre_(ah-ger'-re)_Julian_2013-07-11_02:26:03_0> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/birth> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Aguirre_(ah-ger'-re)_Julian_2013-07-11_02:26:03_0> <http://humanhistoryproject.ca/hasLocation> <http://humanhistoryproject.ca/Buenos Aires> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Aguirre_(ah-ger'-re)_Julian_2013-07-11_02:26:03_0> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/Jan. 28, 1868> <http://humanhistoryproject.ca/Bakers> .
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Aguirre_(ah-ger'-re)_Julian_2013-07-11_02:26:03_1> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Aguirre_(ah-ger'-re)_Julian> }}
+<http://humanhistoryproject.ca/Aguirre_(ah-ger'-re)_Julian_2013-07-11_02:26:03_1> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/death> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Aguirre_(ah-ger'-re)_Julian_2013-07-11_02:26:03_1> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/Aug. 13, 1924> <http://humanhistoryproject.ca/Bakers> .

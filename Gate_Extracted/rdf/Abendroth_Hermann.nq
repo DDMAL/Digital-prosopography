@@ -1,0 +1,7 @@
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Abendroth_Hermann_2013-07-11_02:26:00_0> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Abendroth_Hermann> }}
+<http://humanhistoryproject.ca/Abendroth_Hermann_2013-07-11_02:26:00_0> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/birth> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Abendroth_Hermann_2013-07-11_02:26:00_0> <http://humanhistoryproject.ca/hasLocation> <http://humanhistoryproject.ca/Frankfurt> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Abendroth_Hermann_2013-07-11_02:26:00_0> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/Jan. 19, 1883> <http://humanhistoryproject.ca/Bakers> .
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Abendroth_Hermann_2013-07-11_02:26:00_1> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Abendroth_Hermann> }}
+<http://humanhistoryproject.ca/Abendroth_Hermann_2013-07-11_02:26:00_1> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/death> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Abendroth_Hermann_2013-07-11_02:26:00_1> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/May 29, 1956> <http://humanhistoryproject.ca/Bakers> .

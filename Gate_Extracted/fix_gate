@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for i in `ls bakers_extracted | grep txt.xml`
+do
+	python fix_xml.py $i
+done

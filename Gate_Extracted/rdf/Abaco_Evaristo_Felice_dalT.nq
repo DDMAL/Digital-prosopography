@@ -1,0 +1,8 @@
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Abaco_Evaristo_Felice_dalT_2013-07-11_02:25:59_0> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Abaco_Evaristo_Felice_dalT> }}
+<http://humanhistoryproject.ca/Abaco_Evaristo_Felice_dalT_2013-07-11_02:25:59_0> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/birth> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Abaco_Evaristo_Felice_dalT_2013-07-11_02:25:59_0> <http://humanhistoryproject.ca/hasLocation> <http://humanhistoryproject.ca/Verona> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Abaco_Evaristo_Felice_dalT_2013-07-11_02:25:59_0> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/July 12, 1675> <http://humanhistoryproject.ca/Bakers> .
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Abaco_Evaristo_Felice_dalT_2013-07-11_02:25:59_1> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Abaco_Evaristo_Felice_dalT> }}
+<http://humanhistoryproject.ca/Abaco_Evaristo_Felice_dalT_2013-07-11_02:25:59_1> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/death> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Abaco_Evaristo_Felice_dalT_2013-07-11_02:25:59_1> <http://humanhistoryproject.ca/hasLocation> <http://humanhistoryproject.ca/Munich> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Abaco_Evaristo_Felice_dalT_2013-07-11_02:25:59_1> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/July 12, 1742> <http://humanhistoryproject.ca/Bakers> .

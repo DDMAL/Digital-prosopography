@@ -1,0 +1,4 @@
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Abe_Komei_2013-07-11_02:26:00_0> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Abe_Komei> }}
+<http://humanhistoryproject.ca/Abe_Komei_2013-07-11_02:26:00_0> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/birth> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Abe_Komei_2013-07-11_02:26:00_0> <http://humanhistoryproject.ca/hasLocation> <http://humanhistoryproject.ca/Hiroshima> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Abe_Komei_2013-07-11_02:26:00_0> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/Sept. 1, 1911> <http://humanhistoryproject.ca/Bakers> .

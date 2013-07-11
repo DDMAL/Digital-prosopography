@@ -1,0 +1,3 @@
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Adam_von_Fulda_German_theorist_and_2013-07-11_02:26:01_0> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Adam_von_Fulda_German_theorist_and> }}
+<http://humanhistoryproject.ca/Adam_von_Fulda_German_theorist_and_2013-07-11_02:26:01_0> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/birth> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Adam_von_Fulda_German_theorist_and_2013-07-11_02:26:01_0> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/1440> <http://humanhistoryproject.ca/Bakers> .

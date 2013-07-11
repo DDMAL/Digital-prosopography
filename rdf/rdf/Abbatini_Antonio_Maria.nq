@@ -1,0 +1,3 @@
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Abbatini_Antonio_Maria_2013-07-11_02:25:59_0> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Abbatini_Antonio_Maria> }}
+<http://humanhistoryproject.ca/Abbatini_Antonio_Maria_2013-07-11_02:25:59_0> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/death> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Abbatini_Antonio_Maria_2013-07-11_02:25:59_0> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/Jan., 1680> <http://humanhistoryproject.ca/Bakers> .

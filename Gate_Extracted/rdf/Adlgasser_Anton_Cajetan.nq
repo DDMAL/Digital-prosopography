@@ -1,0 +1,7 @@
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Adlgasser_Anton_Cajetan_2013-07-11_02:26:02_0> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Adlgasser_Anton_Cajetan> }}
+<http://humanhistoryproject.ca/Adlgasser_Anton_Cajetan_2013-07-11_02:26:02_0> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/birth> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Adlgasser_Anton_Cajetan_2013-07-11_02:26:02_0> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/Oct. 1, 1729> <http://humanhistoryproject.ca/Bakers> .
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Adlgasser_Anton_Cajetan_2013-07-11_02:26:02_1> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Adlgasser_Anton_Cajetan> }}
+<http://humanhistoryproject.ca/Adlgasser_Anton_Cajetan_2013-07-11_02:26:02_1> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/death> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Adlgasser_Anton_Cajetan_2013-07-11_02:26:02_1> <http://humanhistoryproject.ca/hasLocation> <http://humanhistoryproject.ca/Salzburg> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Adlgasser_Anton_Cajetan_2013-07-11_02:26:02_1> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/Dec. 23, 1777> <http://humanhistoryproject.ca/Bakers> .

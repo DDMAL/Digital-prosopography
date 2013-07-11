@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for i in `ls | grep txt.xml`
+do
+	cp $i ../bakers_extracted/$i
+done

@@ -1,0 +1,8 @@
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Aaron_Pietro_2013-07-11_02:25:59_0> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Aaron_Pietro> }}
+<http://humanhistoryproject.ca/Aaron_Pietro_2013-07-11_02:25:59_0> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/birth> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Aaron_Pietro_2013-07-11_02:25:59_0> <http://humanhistoryproject.ca/hasLocation> <http://humanhistoryproject.ca/Florence> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Aaron_Pietro_2013-07-11_02:25:59_0> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/1480> <http://humanhistoryproject.ca/Bakers> .
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Aaron_Pietro_2013-07-11_02:25:59_1> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Aaron_Pietro> }}
+<http://humanhistoryproject.ca/Aaron_Pietro_2013-07-11_02:25:59_1> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/death> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Aaron_Pietro_2013-07-11_02:25:59_1> <http://humanhistoryproject.ca/hasLocation> <http://humanhistoryproject.ca/Venice> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Aaron_Pietro_2013-07-11_02:25:59_1> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/1545> <http://humanhistoryproject.ca/Bakers> .

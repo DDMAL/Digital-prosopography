@@ -1,0 +1,7 @@
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Adam_de_la_Hale_(or_Halle)_called_2013-07-11_02:26:01_0> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Adam_de_la_Hale_(or_Halle)_called> }}
+<http://humanhistoryproject.ca/Adam_de_la_Hale_(or_Halle)_called_2013-07-11_02:26:01_0> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/birth> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Adam_de_la_Hale_(or_Halle)_called_2013-07-11_02:26:01_0> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/1240> <http://humanhistoryproject.ca/Bakers> .
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Adam_de_la_Hale_(or_Halle)_called_2013-07-11_02:26:01_1> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Adam_de_la_Hale_(or_Halle)_called> }}
+<http://humanhistoryproject.ca/Adam_de_la_Hale_(or_Halle)_called_2013-07-11_02:26:01_1> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/death> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Adam_de_la_Hale_(or_Halle)_called_2013-07-11_02:26:01_1> <http://humanhistoryproject.ca/hasLocation> <http://humanhistoryproject.ca/Naples> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Adam_de_la_Hale_(or_Halle)_called_2013-07-11_02:26:01_1> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/1287> <http://humanhistoryproject.ca/Bakers> .

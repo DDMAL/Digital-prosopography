@@ -3,7 +3,7 @@ Input: Token Verb Birth Death Location Split Noun Date
 Options: control=appelt
 
 
-/*Macro: EVENT
+Macro: EVENT
 :Event
 {
     AnnotationSet event = (AnnotationSet) bindings.get("Event");
@@ -83,4 +83,4 @@ Rule: EDate
     ({Noun, !Split} | {Token.category=="DT"} | {Token.category=="IN"})[0,5]:noun
     ({Location})[0,1]:loc
 ):Event
---> EVENT*/
+--> EVENT

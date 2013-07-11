@@ -1,0 +1,3 @@
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Aragon_c_2013-07-11_02:26:03_0> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Aragon_c> }}
+<http://humanhistoryproject.ca/Aragon_c_2013-07-11_02:26:03_0> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/death> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Aragon_c_2013-07-11_02:26:03_0> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/1620> <http://humanhistoryproject.ca/Bakers> .

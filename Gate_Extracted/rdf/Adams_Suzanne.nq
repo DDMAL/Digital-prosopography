@@ -1,0 +1,8 @@
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Adams_Suzanne_2013-07-11_02:26:01_0> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Adams_Suzanne> }}
+<http://humanhistoryproject.ca/Adams_Suzanne_2013-07-11_02:26:01_0> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/birth> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Adams_Suzanne_2013-07-11_02:26:01_0> <http://humanhistoryproject.ca/hasLocation> <http://humanhistoryproject.ca/Cambridge> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Adams_Suzanne_2013-07-11_02:26:01_0> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/Nov. 28, 1872> <http://humanhistoryproject.ca/Bakers> .
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Adams_Suzanne_2013-07-11_02:26:01_1> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Adams_Suzanne> }}
+<http://humanhistoryproject.ca/Adams_Suzanne_2013-07-11_02:26:01_1> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/death> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Adams_Suzanne_2013-07-11_02:26:01_1> <http://humanhistoryproject.ca/hasLocation> <http://humanhistoryproject.ca/London> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Adams_Suzanne_2013-07-11_02:26:01_1> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/Feb. 5, 1953> <http://humanhistoryproject.ca/Bakers> .

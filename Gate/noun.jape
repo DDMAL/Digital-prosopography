@@ -3,7 +3,7 @@ Phase: First
 Input: Token Person JobTitle
 Options: control=appelt
 
-
+ 
 Macro: NOUN
 :Noun
 {

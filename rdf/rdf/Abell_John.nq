@@ -1,0 +1,6 @@
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Abell_John_2013-07-11_02:26:00_0> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Abell_John> }}
+<http://humanhistoryproject.ca/Abell_John_2013-07-11_02:26:00_0> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/birth> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Abell_John_2013-07-11_02:26:00_0> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/1652> <http://humanhistoryproject.ca/Bakers> .
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Abell_John_2013-07-11_02:26:00_1> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Abell_John> }}
+<http://humanhistoryproject.ca/Abell_John_2013-07-11_02:26:00_1> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/death> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Abell_John_2013-07-11_02:26:00_1> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/1724> <http://humanhistoryproject.ca/Bakers> .

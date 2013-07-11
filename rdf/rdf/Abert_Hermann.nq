@@ -1,0 +1,7 @@
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Abert_Hermann_2013-07-11_02:26:00_0> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Abert_Hermann> }}
+<http://humanhistoryproject.ca/Abert_Hermann_2013-07-11_02:26:00_0> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/birth> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Abert_Hermann_2013-07-11_02:26:00_0> <http://humanhistoryproject.ca/hasLocation> <http://humanhistoryproject.ca/Stuttgart> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Abert_Hermann_2013-07-11_02:26:00_0> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/March 25, 1871> <http://humanhistoryproject.ca/Bakers> .
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Abert_Hermann_2013-07-11_02:26:00_1> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Abert_Hermann> }}
+<http://humanhistoryproject.ca/Abert_Hermann_2013-07-11_02:26:00_1> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/death> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Abert_Hermann_2013-07-11_02:26:00_1> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/Aug. 13, 1927> <http://humanhistoryproject.ca/Bakers> .

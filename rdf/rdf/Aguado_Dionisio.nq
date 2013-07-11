@@ -1,0 +1,7 @@
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Aguado_Dionisio_2013-07-11_02:26:03_0> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Aguado_Dionisio> }}
+<http://humanhistoryproject.ca/Aguado_Dionisio_2013-07-11_02:26:03_0> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/birth> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Aguado_Dionisio_2013-07-11_02:26:03_0> <http://humanhistoryproject.ca/hasLocation> <http://humanhistoryproject.ca/Madrid> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Aguado_Dionisio_2013-07-11_02:26:03_0> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/April 8, 1784> <http://humanhistoryproject.ca/Bakers> .
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Aguado_Dionisio_2013-07-11_02:26:03_1> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Aguado_Dionisio> }}
+<http://humanhistoryproject.ca/Aguado_Dionisio_2013-07-11_02:26:03_1> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/death> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Aguado_Dionisio_2013-07-11_02:26:03_1> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/Dec. 29, 1849> <http://humanhistoryproject.ca/Bakers> .

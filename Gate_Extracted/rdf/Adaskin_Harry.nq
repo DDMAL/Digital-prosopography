@@ -1,0 +1,12 @@
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Adaskin_Harry_2013-07-11_02:26:01_0> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Adaskin_Harry> }}
+<http://humanhistoryproject.ca/Adaskin_Harry_2013-07-11_02:26:01_0> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/birth> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Adaskin_Harry_2013-07-11_02:26:01_0> <http://humanhistoryproject.ca/hasLocation> <http://humanhistoryproject.ca/Riga> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Adaskin_Harry_2013-07-11_02:26:01_0> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/Sept. 17, 1901> <http://humanhistoryproject.ca/Bakers> .
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Adaskin_Harry_2013-07-11_02:26:01_1> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Adaskin_Harry> }}
+<http://humanhistoryproject.ca/Adaskin_Harry_2013-07-11_02:26:01_1> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/birth> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Adaskin_Harry_2013-07-11_02:26:01_1> <http://humanhistoryproject.ca/hasLocation> <http://humanhistoryproject.ca/Toronto> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Adaskin_Harry_2013-07-11_02:26:01_1> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/March 28, 1906> <http://humanhistoryproject.ca/Bakers> .
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Adaskin_Harry_2013-07-11_02:26:01_2> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Adaskin_Harry> }}
+<http://humanhistoryproject.ca/Adaskin_Harry_2013-07-11_02:26:01_2> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/birth> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Adaskin_Harry_2013-07-11_02:26:01_2> <http://humanhistoryproject.ca/hasLocation> <http://humanhistoryproject.ca/Toronto> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Adaskin_Harry_2013-07-11_02:26:01_2> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/June 4, 1908> <http://humanhistoryproject.ca/Bakers> .

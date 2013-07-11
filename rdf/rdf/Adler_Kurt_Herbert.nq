@@ -1,0 +1,4 @@
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Adler_Kurt_Herbert_2013-07-11_02:26:02_0> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Adler_Kurt_Herbert> }}
+<http://humanhistoryproject.ca/Adler_Kurt_Herbert_2013-07-11_02:26:02_0> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/birth> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Adler_Kurt_Herbert_2013-07-11_02:26:02_0> <http://humanhistoryproject.ca/hasLocation> <http://humanhistoryproject.ca/Vienna> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Adler_Kurt_Herbert_2013-07-11_02:26:02_0> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/April 2, 1905> <http://humanhistoryproject.ca/Bakers> .

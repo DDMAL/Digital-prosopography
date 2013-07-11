@@ -1,0 +1,7 @@
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Adelburg_August_Ritter_von_2013-07-11_02:26:01_0> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Adelburg_August_Ritter_von> }}
+<http://humanhistoryproject.ca/Adelburg_August_Ritter_von_2013-07-11_02:26:01_0> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/birth> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Adelburg_August_Ritter_von_2013-07-11_02:26:01_0> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/Nov. 1, 1830> <http://humanhistoryproject.ca/Bakers> .
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Adelburg_August_Ritter_von_2013-07-11_02:26:01_1> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Adelburg_August_Ritter_von> }}
+<http://humanhistoryproject.ca/Adelburg_August_Ritter_von_2013-07-11_02:26:01_1> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/death> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Adelburg_August_Ritter_von_2013-07-11_02:26:01_1> <http://humanhistoryproject.ca/hasLocation> <http://humanhistoryproject.ca/Vienna> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Adelburg_August_Ritter_von_2013-07-11_02:26:01_1> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/Oct. 20, 1873> <http://humanhistoryproject.ca/Bakers> .

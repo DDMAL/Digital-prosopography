@@ -1,0 +1,7 @@
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Agrell_Johan_Joachim_2013-07-11_02:26:03_0> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Agrell_Johan_Joachim> }}
+<http://humanhistoryproject.ca/Agrell_Johan_Joachim_2013-07-11_02:26:03_0> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/birth> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Agrell_Johan_Joachim_2013-07-11_02:26:03_0> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/Feb. 1, 1701> <http://humanhistoryproject.ca/Bakers> .
+INSERT DATA { GRAPH <http://humanhistoryproject.ca/bakers> { <http://humanhistoryproject.ca/Agrell_Johan_Joachim_2013-07-11_02:26:03_1> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Agrell_Johan_Joachim> }}
+<http://humanhistoryproject.ca/Agrell_Johan_Joachim_2013-07-11_02:26:03_1> <http://humanhistoryproject.ca/action> <http://humanhistoryproject.ca/death> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Agrell_Johan_Joachim_2013-07-11_02:26:03_1> <http://humanhistoryproject.ca/hasLocation> <http://humanhistoryproject.ca/Nuremberg> <http://humanhistoryproject.ca/Bakers> .
+<http://humanhistoryproject.ca/Agrell_Johan_Joachim_2013-07-11_02:26:03_1> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/Jan. 19, 1765> <http://humanhistoryproject.ca/Bakers> .
