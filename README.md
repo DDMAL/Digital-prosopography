@@ -29,12 +29,12 @@ Download the jar file from http://gate.ac.uk/download/ and follow the correspond
 The Overall Process
 ===================
 
-The raw file is uploaded through the JSF page 
-The file is inserted into the article table in MySQL database
-GATE is invoked in the embedded mode with Tomcat server.
-Corresponding gapp files are loaded and the raw file is splitted and keywords are extracted to generate the xml files.
-The generated xml files and nq files are also stored in the MySQL database.
-Then the nq files are inserted into the RDF repository of Sesame.
+The raw file is uploaded through the JSF page  
+The file is inserted into the article table in MySQL database  
+GATE is invoked in the embedded mode with Tomcat server.  
+Corresponding gapp files are loaded and the raw file is splitted and keywords are extracted to generate the xml files.  
+The generated xml files and nq files are also stored in the MySQL database.  
+Then the nq files are inserted into the RDF repository of Sesame.  
 
 Detailed Workflow
 =================
