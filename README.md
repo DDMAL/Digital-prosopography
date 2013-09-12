@@ -75,7 +75,7 @@ Optional Plugins:
 - Birth and Death: Extract birth and death verbs specifically
 - Birth and Death Event: Extract birth and death event
 
-Gate runs through the plugins specified on the gapp file on the input document, and the output is saved as a xml file. (Note that a “.gapp” file is a GATE config file that specifies which plugin to run). Baker’s GATE xml output is saved in /home/jin/apache-tomcat-6.0.37/bin/nqbakers.txt/ directory
+Gate runs through the plugins specified on the gapp file on the input document, and the output is saved as a xml file. (Note that a “.gapp” file is a GATE config file that specifies which plugin to run).  
 
 Customizing for bakers  
 Instead of calling Customized Plugins, we call the Optional Plugins shown above. Thus at this stage we only extract birth and death date & location.
@@ -106,8 +106,7 @@ Predict – the action, verb
 Object – any object  
 Context – EventID  
  
-Reasons for choosing Model 1:
- 
+Reasons for choosing Model 1:  
 Model structure is flat, easy to search, compute time small. Can have context/source specified at any level. Flexible, can add new namespaces as you go, i.e., does not restrict a certain event adding new namespace. The disadvantage of model 1 is that the event ID is always the subject in the quad modeling, which is difficult to interpret by users. 
  
 Things to concern about:  
