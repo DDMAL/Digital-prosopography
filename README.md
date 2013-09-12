@@ -10,21 +10,21 @@ Installation
 ============
 
 Install Apache Tomcat server:
-
+```
 sudo apt-get install tomcat6
-
+```
 Install mysql:
-
+```
 sudo apt-get install mysql-server mysql-client
-
+```
 Install sesame server:
-
+```
 go to http://www.openrdf.org/doc/sesame/users/ch02.html and follow the instruction under section "2.2.2. Installation under Tomcat 4 or 5"
-
+```
 Install GATE:
-
+```
 Download the jar file from http://gate.ac.uk/download/ and follow the corresponding instruction.
-
+```
 
 The Overall Process
 ===================
@@ -90,7 +90,7 @@ Subject – EventID
 Predict – [hasSubject, hasAction, hasObject, hasDate, hasLocation]
 Object – any object/other EventID
 Context – Source (usually the name of the book)
-
+```
 Example RDF:
 <http://humanhistoryproject.ca/Aaron_Pietro_2013-08-29_00:43:11_1> <http://humanhistoryproject.ca/hasSubject> <http://humanhistoryproject.ca/Aaron_Pietro> .
 <http://humanhistoryproject.ca/Bakers> .
@@ -99,7 +99,7 @@ Example RDF:
 <http://humanhistoryproject.ca/Bakers> .
 
 <http://humanhistoryproject.ca/Aaron_Pietro_2013-08-29_00:43:11_1> <http://humanhistoryproject.ca/hasTime> <http://humanhistoryproject.ca/1480> <http://humanhistoryproject.ca/Bakers> .
-
+```
 Model 2: (EventID as context)
 Subject – any person/EventID
 Predict – the action, verb
